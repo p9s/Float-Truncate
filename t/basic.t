@@ -14,4 +14,5 @@ cmp_ok( truncate_force( $float ), '==', $float, 'truncate_force without length  
 
 cmp_ok( truncate( $float, 0 ), '==', 2, 'truncate to integer' );
 cmp_ok( truncate_force( $float, 0 ), '==', 1, 'truncate_force to integer' );
+
 done_testing;

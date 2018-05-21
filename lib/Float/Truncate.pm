@@ -62,6 +62,3 @@ Copyright 2018- MC Cheung
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
-=head1 SEE ALSO
-
-=cut

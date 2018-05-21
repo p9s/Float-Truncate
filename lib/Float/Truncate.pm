@@ -2,7 +2,7 @@ package Float::Truncate;
 
 use strict;
 use 5.008_005;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 use vars qw/@ISA @EXPORT @EXPORT_OK/;
 require Exporter;
 @ISA = qw(Exporter);

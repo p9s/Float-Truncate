@@ -2,7 +2,7 @@ package Float::Truncate;
 
 use strict;
 use 5.008_005;
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 use vars qw/@ISA @EXPORT @EXPORT_OK/;
 require Exporter;
 @ISA = qw(Exporter);
@@ -17,8 +17,8 @@ sub truncate {
 sub truncate_force {
     my ( $number, $length ) = @_;
     return $number unless defined $length;
-    
-    $length = 10 ** $length;
+
+    $length = 10**$length;
     return int( $number * $length ) / $length;
 }
 

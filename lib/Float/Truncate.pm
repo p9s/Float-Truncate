@@ -10,14 +10,13 @@ require Exporter;
 
 sub truncate {
     my ( $number, $length ) = @_;
-    return $number unless $length;
-
+    return $number unless defined $length;
     return sprintf "%.${length}f", $number;
 }
 
 sub truncate_force {
     my ( $number, $length ) = @_;
-    return $number unless $length;
+    return $number unless defined $length;
     
     $length = 10 ** $length;
     return int( $number * $length ) / $length;

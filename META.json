@@ -4,7 +4,7 @@
       "MC Cheung <mc.cheung@aol.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Milla version v1.0.20, Dist::Zilla version 6.008, CPAN::Meta::Converter version 2.150005",
+   "generated_by" : "Dist::Milla version v1.0.20, Dist::Zilla version 6.012, CPAN::Meta::Converter version 2.150005",
    "license" : [
       "perl_5"
    ],
@@ -62,6 +62,7 @@
    "x_contributors" : [
       "mccheung <mc_cheung@126.com>"
    ],
+   "x_generated_by_perl" : "v5.25.0",
    "x_serialization_backend" : "Cpanel::JSON::XS version 3.0225",
    "x_static_install" : 1
 }

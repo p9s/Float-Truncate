@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "Ttruncate Float decimal length by special length",
    "author" : [
       "MC Cheung <mc.cheung@aol.com>"
    ],
@@ -48,6 +48,9 @@
    },
    "release_status" : "stable",
    "version" : "0.01",
+   "x_contributors" : [
+      "mccheung <mc_cheung@126.com>"
+   ],
    "x_serialization_backend" : "Cpanel::JSON::XS version 3.0225",
    "x_static_install" : 1
 }
